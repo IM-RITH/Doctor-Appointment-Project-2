@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Khmer&family=Noto+Serif+Khmer:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Rubik&display=swap');
+
+/* register page */
+body {
+  background-color: #D5D3DC;
+}
+*{
+  font-family: 'Rubik', sans-serif;
+}
+.card-title{
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: white;
+}
+.card{
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px gray;
+  background-color: #303750;
+}
+.container-register{
+  display: flex;
+  margin-top: 80px;
+  height: 100vh;
+  justify-content: center;
+}
+.register-form{
+  width: 500px;
+  height: 450px;
+}
+label {
+  font-size: 18px !important;
+  color: white !important;
+}
+Input {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.register-button {
+  width: 100%;
+  background-color: #495ca1;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+}
+.register-button:hover{
+  transform: scale(1.03);
+  color: gold !important;
+}
+.link-back-login {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.link-back-login:hover {
+  color: peru !important;
+}
+
+/* login */
+.login-form {
+  width: 500px;
+  height: 380px;
+}
+/* loader */
+.spinner-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.608);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+.spinner-border{
+  width: 3rem;
+  height: 3rem;
+  color: aliceblue !important;
+}
+
+/* Apply for a doctor */
+.page {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+hr {
+  color: yellow;
+}
+.personal-info {
+  color: gold;
+  font-size: 30px;
+}
+.Mark-all, .delete {
+  cursor: pointer;
+}
+.card-text {
+  cursor: pointer;
+}
+
+/* Doctor display on screen */
+.pointer {
+  cursor: pointer;
+}
+.pointer:hover {
+  transform: scale(1.02);
+}
+
+.info3 {
+  line-height: 1.2rem;
+}
+
+/* booking */
+.title2 {
+  justify-content: center;
+}
+.card-title2 {
+  font-size: 1.8rem;
+  color: rgb(214, 243, 134);
+}
+.date_time {
+  text-align: center;
+  justify-content: center;
+  padding: 0 5px;
+}
+.booking {
+  justify-content: center;
+}
+/* booking button */
+.booking-btn {
+  font-weight: bold;
+  box-shadow: 1px 1px 1px cornflowerblue;
+}.booking-btn:hover {
+  transform: scale(1.03);
+  font-weight: bold;
+  background-color: darkslateblue;
+  color: goldenrod !important;
+}
